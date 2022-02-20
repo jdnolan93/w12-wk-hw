@@ -23,6 +23,11 @@ public class DrumTest {
         assertEquals("brown", drum.getColour());
     }
 
+    @Test
+    public void canGetMaterial(){
+        assertEquals("wood", drum.getMaterial());
+    }
+
 
 
 }
