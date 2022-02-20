@@ -1,4 +1,5 @@
 import instruments.Guitar;
+import instruments.Instrument;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,5 +17,15 @@ public class GuitarTest {
     @Test
     public void canPlay() {
         assertEquals("Kerrang", guitar.play());
+    }
+
+    @Test
+    public void canGetColour() {
+        assertEquals("black", guitar.getColour());
+    }
+
+    @Test
+    public void canGetMaterial() {
+        assertEquals("metal", guitar.getMaterial());
     }
 }

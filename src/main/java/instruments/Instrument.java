@@ -16,11 +16,11 @@ public abstract class Instrument implements IPlay {
         return colour;
     }
 
-    public void setMaterial(String material) {
-        this.material = material;
+    public String getMaterial() {
+        return material;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public String getType() {
+        return type;
     }
 }
