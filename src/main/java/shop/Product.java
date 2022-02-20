@@ -1,4 +1,6 @@
-public abstract class Product implements ISell{
+package shop;
+
+public abstract class Product implements ISell {
 
     String description;
     Double buyPrice;
