@@ -18,6 +18,11 @@ public class DrumTest {
         assertEquals("Bang", drum.play());
     }
 
+    @Test
+    public void canGetColour() {
+        assertEquals("brown", drum.getColour());
+    }
+
 
 
 }
