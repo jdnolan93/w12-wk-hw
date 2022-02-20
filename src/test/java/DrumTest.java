@@ -10,7 +10,7 @@ public class DrumTest {
 
     @Before
     public void before() {
-        drum = new Drum("brown", "wood", "bongs", 2);
+        drum = new Drum("brown", "wood", "bongos", 2);
     }
 
     @Test
@@ -26,6 +26,11 @@ public class DrumTest {
     @Test
     public void canGetMaterial(){
         assertEquals("wood", drum.getMaterial());
+    }
+
+    @Test
+    public void canGetType(){
+        assertEquals("bongos", drum.getType());
     }
 
 
