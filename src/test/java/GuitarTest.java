@@ -28,4 +28,9 @@ public class GuitarTest {
     public void canGetMaterial() {
         assertEquals("metal", guitar.getMaterial());
     }
+
+    @Test
+    public void canGetType() {
+        assertEquals("electric", guitar.getType());
+    }
 }
