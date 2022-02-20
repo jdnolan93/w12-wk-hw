@@ -11,7 +11,7 @@ public class GuitarTest {
 
     @Before
     public void before() {
-        guitar = new Guitar("black", "metal", "electric", 4);
+        guitar = new Guitar("black", "metal", "electric", 4, "guitar", 40.0, 60.0);
     }
 
     @Test
@@ -37,5 +37,10 @@ public class GuitarTest {
     @Test
     public void canGetStrings() {
         assertEquals(4, guitar.getNoOfStrings());
+    }
+
+    @Test
+    public void canGetDescription() {
+        assertEquals("guitar", guitar.getDescription());
     }
 }
