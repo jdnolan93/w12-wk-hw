@@ -33,4 +33,9 @@ public class GuitarTest {
     public void canGetType() {
         assertEquals("electric", guitar.getType());
     }
+
+    @Test
+    public void canGetStrings() {
+        assertEquals(4, guitar.getNoOfStrings());
+    }
 }

@@ -15,4 +15,7 @@ public class Guitar extends Instrument {
         return "Kerrang";
     }
 
+    public int getNoOfStrings() {
+        return noOfStrings;
+    }
 }
