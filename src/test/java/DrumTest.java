@@ -10,7 +10,7 @@ public class DrumTest {
 
     @Before
     public void before() {
-        drum = new Drum("brown", "wood", "bongos", 2);
+        drum = new Drum("brown", "wood", "bongos", 2, "drum", 20.0, 30.0);
     }
 
     @Test
