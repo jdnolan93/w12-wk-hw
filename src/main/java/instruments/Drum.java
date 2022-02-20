@@ -12,7 +12,7 @@ public class Drum extends Instrument {
     public String play() {
         return "Bang";
     }
-    
+
     public int getNoOfDrums() {
         return noOfDrums;
     }
