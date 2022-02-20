@@ -33,6 +33,11 @@ public class DrumTest {
         assertEquals("bongos", drum.getType());
     }
 
+    @Test
+    public void canGetNoOfDrums(){
+        assertEquals(2, drum.getNoOfDrums());
+    }
+
 
 
 }
