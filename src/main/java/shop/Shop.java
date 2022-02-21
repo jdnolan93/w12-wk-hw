@@ -20,4 +20,8 @@ public class Shop {
     public ArrayList<ISell> getStock() {
         return stock;
     }
+
+    public int getStockCount(){
+        return stock.size();
+    }
 }
