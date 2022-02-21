@@ -1,6 +1,8 @@
 package shop;
 
 import java.util.ArrayList;
+
+import instruments.Guitar;
 import shop.ISell;
 
 public class Shop {
@@ -27,5 +29,9 @@ public class Shop {
 
     public void addToStock(ISell product) {
         stock.add(product);
+    }
+
+    public void removeFromStock(ISell product) {
+        stock.remove(product);
     }
 }

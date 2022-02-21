@@ -36,4 +36,11 @@ public class ShopTest {
     }
 
     @Test
+    public void canRemoveFromStock(){
+        shop.addToStock(guitar);
+        shop.addToStock(guitar);
+        shop.addToStock(sheetMusic);
+        shop.removeFromStock(guitar);
+        assertEquals(2, shop.getStockCount());
+    }
 }
