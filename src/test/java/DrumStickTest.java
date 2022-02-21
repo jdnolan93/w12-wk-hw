@@ -22,4 +22,9 @@ public class DrumStickTest {
     public void canGetBuyPrice() {
         assertEquals(0.5, drumStick.getBuyPrice(), 0.0);
     }
+
+    @Test
+    public void canGetSellPrice(){
+        assertEquals(1.0, drumStick.getSellPrice(), 0.0);
+    }
 }
