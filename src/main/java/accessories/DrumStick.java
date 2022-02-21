@@ -1,5 +1,11 @@
 package accessories;
 
-public class DrumStick {
+import shop.Product;
+
+public class DrumStick extends Product {
+
+    public DrumStick(String description, Double buyPrice, Double sellPrice) {
+        super(description, buyPrice, sellPrice);
+    }
 
 }
