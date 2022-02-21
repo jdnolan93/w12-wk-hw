@@ -43,4 +43,9 @@ public class GuitarTest {
     public void canGetDescription() {
         assertEquals("guitar", guitar.getDescription());
     }
+
+    @Test
+    public void canGetBuyPrice() {
+        assertEquals(40,0, guitar.getBuyPrice());
+    }
 }
