@@ -32,4 +32,9 @@ public class SheetMusicTest {
     public void canCalculatePrice(){
         assertEquals(0.4, sheetMusic.calculateMarkup(), 0.0);
     }
+
+    @Test
+    public void canGetSongName(){
+        assertEquals("Yellow Submarine", sheetMusic.getSongName());
+    }
 }
