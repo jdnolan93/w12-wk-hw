@@ -38,6 +38,26 @@ public class DrumTest {
         assertEquals(2, drum.getNoOfDrums());
     }
 
+    @Test
+    public void canGetDescription() {
+        assertEquals("drum", drum.getDescription());
+    }
+
+//    @Test
+//    public void canGetBuyPrice() {
+//        assertEquals(20.0, drum.getBuyPrice());
+//    }
+//
+//    @Test
+//    public void canGetSellPrice() {
+//        assertEquals(30.0, drum.getSellPrice());
+//    }
+
+    @Test
+    public void canCalculatePrice() {
+        assertEquals(10.0, drum.calculateMarkup(), 0.0);
+    }
+
 
 
 }
