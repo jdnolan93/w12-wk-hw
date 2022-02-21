@@ -12,4 +12,12 @@ public class Shop {
         this.name = name;
         this.stock = new ArrayList<ISell>();
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public ArrayList<ISell> getStock() {
+        return stock;
+    }
 }
