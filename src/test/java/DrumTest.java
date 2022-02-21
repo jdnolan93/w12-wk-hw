@@ -43,15 +43,15 @@ public class DrumTest {
         assertEquals("drum", drum.getDescription());
     }
 
-//    @Test
-//    public void canGetBuyPrice() {
-//        assertEquals(20.0, drum.getBuyPrice());
-//    }
-//
-//    @Test
-//    public void canGetSellPrice() {
-//        assertEquals(30.0, drum.getSellPrice());
-//    }
+    @Test
+    public void canGetBuyPrice() {
+        assertEquals(20.0, drum.getBuyPrice(), 0.0);
+    }
+
+    @Test
+    public void canGetSellPrice() {
+        assertEquals(30.0, drum.getSellPrice(), 0.0);
+    }
 
     @Test
     public void canCalculatePrice() {

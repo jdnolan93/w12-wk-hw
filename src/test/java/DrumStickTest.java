@@ -17,4 +17,9 @@ public class DrumStickTest {
     public void canGetDescription() {
         assertEquals("drumstick", drumStick.getDescription());
     }
+
+    @Test
+    public void canGetBuyPrice() {
+        assertEquals(0.5, drumStick.getBuyPrice(), 0.0);
+    }
 }
